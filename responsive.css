@@ -1,0 +1,271 @@
+@media all and (max-width:1228px) {
+    .main-menu {
+        padding: 0 20px;
+    }
+
+    .service {
+        padding: 70px 30px;
+    }
+}
+
+.about {
+    padding: 80px 20px;
+}
+
+@media all and (max-width: 1125px){
+    .about-left {
+        width: 40%;
+    }
+    .about-right {
+        width: 58%;
+    }
+    .about-right h3 {
+        font-size: 23px;
+        margin-bottom: inherit;
+    }
+    .about-right p {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 960px) {
+    .about {
+        padding: 80px 70px;
+    }
+    .about-left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-right {
+        width: 100%;
+        padding: 0 42px;
+        box-sizing: border-box;
+    }
+    .about-right h3 {
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+    .about-right p {
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width:860px) {
+    .menu-logo a {
+        font-size: 26px;
+    }
+
+    .menu-text ul li a {
+        padding: 24px 10px;
+        font-size: 15px;
+    }
+
+    .service-item {
+        width: 48%;
+        margin: 1%;
+    }
+}
+
+@media all and (max-width: 736px) {
+    .menu-logo {
+        float: inherit;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-logo {
+        width: 50%;
+        float: left;
+        text-align: left;
+    }
+
+    .menu-text {
+        width: 50%;
+        text-align: right;
+    }
+
+    .menu-text span {
+        display: inline-block;
+        font-size: 35px;
+        color: white;
+        margin-top: 14px;
+        margin-right: 10px;
+        pointer-events: none;
+        position: absolute;
+        right: -1px;
+    }
+
+    .menu-text {
+        position: relative;
+    }
+
+    .menu-text ul {
+        display: block;
+        height: auto;
+        width: 131px;
+        background: green;
+        text-align: left;
+        position: absolute;
+        top: 65px;
+        right: -20px;
+        visibility: hidden;
+        opacity: 0;
+        transition: .5s;
+    }
+
+    .menu-text ul li {
+        display: block;
+    }
+
+    .menu-text ul li a {
+        padding: 8px 22px;
+        font-size: 15px;
+        margin-left: 0;
+    }
+
+    .menu-text ul li a:hover {
+        border-radius: inherit;
+    }
+
+    .menu-text input[type="checkbox"] {
+        position: absolute;
+        top: 19px;
+        right: 7px;
+        height: 30px;
+        width: 32px;
+        cursor: pointer;
+        opacity: 0;
+        display: block;
+    }
+
+    .menu-text input[type="checkbox"]:checked~ul {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .banner {
+        padding: 111px 0;
+    }
+    .contact {
+        margin-bottom: 45px;
+        width: 100%;
+    }
+}
+
+@media all and (max-width:650px) {
+    .banner {
+        padding: 72px 0;
+    }
+
+    .banner-content h1 {
+        font-size: 35px;
+    }
+
+    .banner-content p {
+        font-size: 12px;
+    }
+
+    .main-heading {
+        padding: 0 45px;
+    }
+
+    .main-heading h1 {
+        font-size: 31px;
+    }
+    .main-heading p {
+        font-size: 14px;
+    }
+    .footer-icon ul li a {
+        margin: 0 14px;
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width:500px) {
+    .service-item {
+        width: 100%;
+    }
+    .about {
+        padding: 44px 31px;
+    }
+    .footer-bottom p {
+        font-size: 12px;
+    }
+    .about-right {
+        padding: inherit;
+        text-align: center;
+    }
+}
+@media all and (max-width:400px) {
+    .menu-logo {
+        width: 80%;
+    }
+    .menu-text {
+        width: 20%;
+    }
+    .banner {
+        padding: 25px 0;
+    }
+    .banner-content h1 {
+        font-size: 23px;
+    }
+    .banner-content p {
+        font-size: 12px;
+        margin-top: 9px;
+    }
+    .banner-content a {
+        margin-top: 19px;
+        font-size: 12px;
+    }
+    .service {
+        padding: 24px 10px;
+    }
+    .service-item {
+        float: inherit;
+        padding: 9px;
+    }
+    .main-heading {
+        padding: inherit;
+    }
+    .about {
+        padding: 17px 15px;
+    }
+    .main-heading {
+        margin-bottom: 25px;
+    }
+    .main-heading h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .main-heading p {
+        font-size: 14px;
+    }
+    .about-right h3 {
+        font-size: 23px;
+        margin-bottom: 6px;
+    }
+    .about-right p {
+        margin-bottom: 15px;
+        font-size: 14px;
+    }
+    .contact-section {
+        padding: 25px 15px;
+    }
+    .contact {
+        margin-bottom: 0px;
+        border-bottom: 2px solid #d3dae2;
+        border-radius: 47px;
+        margin-top: 5px;
+    }
+    .contact-item p {
+        margin-bottom: 8px;
+    }
+    .contact-item a {
+        margin-bottom: 5px;
+    }
+    .footer-top {
+        padding: 15px 0;
+    }
+}
