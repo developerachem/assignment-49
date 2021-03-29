@@ -250,7 +250,7 @@
         margin-bottom: 15px;
         font-size: 14px;
     }
-    .contact-section {
+    .contact-sections {
         padding: 25px 15px;
     }
     .contact {
@@ -267,5 +267,6 @@
     }
     .footer-top {
         padding: 15px 0;
+
     }
 }
